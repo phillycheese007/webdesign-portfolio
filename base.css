@@ -1,0 +1,101 @@
+@import 'imports/colors_and_borders.css';
+/*-----------------*/
+
+
+#AboutDevTypeText {
+  font-size:90px;
+}
+
+body {
+  background: pink;
+  /*background-image: url("paper.gif");*/
+}
+body {
+  border: var(--border-default);
+
+}
+
+span {
+  color: var(--defaultfor);
+  font-family: monospace;
+}
+
+.blinker {
+  opacity: 1;
+  margin-bottom: -2px;
+  height: 15px;
+  margin-left: -5px;
+  border-left: 7px solid yellow;
+  animation: blinker 0.9s steps(2, start) infinite;
+}
+
+@keyframes blinker {
+  to { 
+    visibility: hidden; 
+  }
+}
+
+
+
+.cube {
+  font-size: 14px;
+  width: 600px;
+  margin-top:500px;
+  transform-style: preserve-3d;
+
+
+}
+
+.side {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  background: rgba(100,100,100,0.5);
+  border: 1px solid red;
+  text-align: center;
+  line-height: 2em;
+}
+.top {
+  width:600px;
+  height:600px;
+  background:yellow;
+}
+.bottom {
+  width:600px;
+  height:600px;
+  background:blue;
+}
+.front {transform: translateZ(300px);background:green;}
+.bottom {transform: rotateX(-90deg) translateZ(0em);}
+
+
+
+
+.open {
+  animation: open .5s normal;
+  animation-fill-mode:forwards;
+  transform-style: preserve-3d;
+  perspective: 111140px;
+  
+}
+.close {
+  animation: close .5s normal;
+  animation-fill-mode:forwards;
+  transform-style: preserve-3d;
+  perspective: 12220px;
+}
+
+
+@keyframes open {
+  from {  transform:  rotateX(0deg);
+  }
+  to {  transform:  rotateX(90deg);
+  }
+}
+
+@keyframes close {
+  from {  transform:  rotateX(90deg);
+  }
+  to {  transform:  rotateX(0deg);
+  }
+}

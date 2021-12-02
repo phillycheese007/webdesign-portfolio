@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles-collector.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+    
+    <input type="checkbox" id="demo"/>
+    <label for="demo">I'm a square. Click me.</label>
+
+    
+    <input type="checkbox" id="bon"/>
+
+<div class="ex1">
+  <div class="cube">
+    <div class="side front switchOpen">1 front</div>
+
+    <div class="side bottom switchClose">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint ea dicta ad dolorum expedita sapiente optio! Saepe ratione odio sint dolores, eaque doloremque sunt nulla corrupti culpa, quam blanditiis?
+    </div>
+  </div>
+</div>
+
+
+<div id="something">something</div>
+
+<button id="open-sesame">open something</button>
+
+<script>
+
+$('.switchOpen').click( function() { 
+  $('.ex1').removeClass('close');
+  $('.cube').addClass('cube-shift-down');
+  $('.ex1').addClass('open');
+});
+
+
+$('.switchClose').click( function() { 
+  $('.ex1').removeClass('open');
+  $('.cube').removeClass('cube-shift-down');
+  $('.ex1').addClass('close');
+});
+
+
+</script>
+
+    <!--<span id="AboutDevTypeText" class="typeing">
+    </span>
+    <span class='blinker'>&#32;</span>-->
+
+
+    <!--<img src="assets/images/zelda-1.gif" alt="" srcset="">-->
+
+
+    <script src="assets/js/ticker.js"></script>
+
+  </body>
+</html>
