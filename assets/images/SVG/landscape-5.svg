@@ -7,6 +7,45 @@
     .cls-3{fill:#be1e2d;}
     .cls-4{fill:#8c6628;}
     .cls-5{fill:#3fb549;}
+
+
+    @keyframes cloud_ANIMATION_1 {
+  0% {
+    visibility: visible;
+    transform: translateX(-100px);
+  }
+ 50% {
+    visibility: visible;
+    transform: translateX(430px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(-100px);
+  }
+}
+
+
+#TreeTopPath {
+  fill:orange !important ;
+}
+#TreeTrunkPath {
+  fill:rgb(54, 170, 8) !important ;
+}
+#ForegroundPath {
+  fill:rgb(129, 15, 158) !important ;
+}
+#CloudPath {
+  fill:rgb(196, 14, 7) !important ;
+}
+
+#CloudPath {
+  transform: translateX(-100px);
+  animation: cloud_ANIMATION_1 24s .5s ease infinite;
+}
+
+
+
+
     </style>
   </defs>
 
