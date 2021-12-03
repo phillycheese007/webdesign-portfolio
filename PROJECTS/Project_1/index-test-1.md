@@ -17,9 +17,8 @@ It **works!**
 
 ## Images
 
-![Minion](/assets/SVG/landscape-5.svg)
+![Minion](https://phillycheese007.github.io/webdesign-portfolio/PROJECTS/Project_1/assets/SVG/landscape-5.svg)
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 
 
-/assets/SVG/landscape-5.svg
