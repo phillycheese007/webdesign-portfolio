@@ -7,28 +7,29 @@
   }
 </style>
 
-<aside id="sidebar">
-  <section id="widget_1">
-    <header>
-      <h2>click to add/ hide objects</h2>
-    </header>
-  </section>
+<div id="sidebar">
 
-  <section id="widget_2">
+  <header><h2>click to add/ hide objects</h2></header>
 
-  </section>
 
-  <section id="widget_3">
-    <button id="hideSky">hide sky</button>
-  </section>
-</aside>
+
+  <article id="objectControllers">
+
+    <section id="tree">
+      <button id="hideTree">hide tree</button>
+
+    </section>
+
+  </article>
+
+</div>
 
   
 <!--#region script-->
 <script>
-  $('#hideSky').click( function() { 
+  $('#hideTree').click( function() { 
    // alert('clicked');
-    $('#sky').toggle();
+    $('#TreeTop').toggle();
   });
 </script>
 <!--#endregion script-->
