@@ -15,6 +15,10 @@ It **works!**
 
 <h1>{{ page.food }}</h1>
 
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 715.12 598.36"><defs><style>.cls-1{fill:#c4bcdd;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke:#231f20;stroke-miterlimit:10;}.cls-2{fill:#f7f7f7;}.cls-3{fill:#be1e2d;}.cls-4{fill:#8c6628;}.cls-5{fill:#3fb549;}</style></defs><g id="sky"><rect id="SkyPath" class="cls-1" x="0.5" y="0.5" width="714.12" height="495.55"/></g><g id="cloud"><path id="CloudPath" class="cls-2" d="M364.29,323s2.5-53.45,57.5-55.06S459.29,203,500.12,213s66.67,13.06,77.5,33.2,34.17-46.17,64.17-34.27,27.5,65.24,0,69.4-24.17,35.84-54.17,45-45.83-27.5-94.17-12.5-55.83,15-77.5,7.5S382.62,335.5,364.29,323Z" transform="translate(0.5 0.5)"/></g><g id="Foreground"><rect id="ForegroundPath" class="cls-3" x="0.5" y="437.61" width="714.12" height="160.25"/></g><g id="tree"><g id="TreeGroup"><path id="TreeTrunkPath" class="cls-4" d="M81,530l89.47-255.43h24.16L128,540.55A20.61,20.61,0,0,1,105.11,556l-11.85-1.66A18.87,18.87,0,0,1,81,530Z" transform="translate(0.5 0.5)"/><path id="TreeTopPath" class="cls-5" d="M157,271.25,56.3,353.75l89.17-109.17L28,274.58,157,220.91s-98.24-43.83-133.24-33,81.67-57.5,141.67,3.34l9.16-104.17,20,107.5,89.17-70-72.5,89.17s42.5-33.34,93.33,6.66c0,0-70.83.84-78.33,14.17,0,0,80.83,32.5,85,60,0,0-85-35-106.67-31.67,0,0,40.37,45.84,42.5,85.84S157,271.25,157,271.25Z" transform="translate(0.5 0.5)"/></g></g></svg>
+</div>
+
 ## Images
 
 ![Minion](https://phillycheese007.github.io/webdesign-portfolio/assets/images/SVG/landscape-5.svg)
