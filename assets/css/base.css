@@ -19,3 +19,7 @@ figure {
   overflow: hidden;
 }
 /*#endregion ---*/
+
+.text-align-center { 
+  text-align:center;
+}
