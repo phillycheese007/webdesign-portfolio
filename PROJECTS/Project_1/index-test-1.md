@@ -1,6 +1,6 @@
 ---
 # the title that will appear in the HTML head tag
-layout: animated-scenes-wrapper-1
+layout: PROJECT_1/animated-scenes-wrapper-1
 title: index home page
 food: pizza
 ---
