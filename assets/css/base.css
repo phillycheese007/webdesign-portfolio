@@ -3,3 +3,19 @@ body {
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+body {
+  background: #DA7B66; }
+* { box-sizing:border-box; }
+
+/*#region ----*/
+figure {
+  width:50%;
+  height:auto;
+  margin-left:25%;
+  border:10px solid black;
+  border-radius: 50px;
+  overflow: hidden;
+}
+/*#endregion ---*/
