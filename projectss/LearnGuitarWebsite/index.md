@@ -9,7 +9,6 @@ food: pizza
 
 
 
-{% include /Diagrams/Chords/D-chord.html %}
 
 <div class="bacon" markdown="1">
   
