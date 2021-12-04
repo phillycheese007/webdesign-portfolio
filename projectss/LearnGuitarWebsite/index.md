@@ -7,9 +7,6 @@ food: pizza
 
 ## Welcome to heeere
 
-
-
-
 <div class="bacon" markdown="1">
   
 It **works!**
